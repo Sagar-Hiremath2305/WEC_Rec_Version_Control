@@ -43,6 +43,9 @@ Prerequisites: Python 3.x installed on your machine.
    python mygit.py checkout <branch_name>
    ```
 
+## Demo video link
+https://drive.google.com/file/d/1QDBXVJXvhAdO5JaIXn6IWF2KBTp31HpX/view?usp=sharing
+
 ## Design Notes
 - The objects (commits, trees, blobs) are stored in `.mygit/objects/` under directories named with the first 2 characters of their SHA-1 hash, mimicking standard git.
 - The index (staging area) is stored as a simple JSON file in `.mygit/index` mapping paths to SHA-1 hashes.
